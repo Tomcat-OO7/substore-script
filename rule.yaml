@@ -117,7 +117,7 @@ proxy-groups:
 
   # 应用分组
   - {name: 电报信息, type: select, proxies: [节点选择, 省流选择, 落地选择, 香港节点, 日本节点, 狮城节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png}
-  - {name: 人工智能, type: select, proxies: [人工智能, 节点选择, 省流选择, 落地选择, 香港节点, 日本节点, 狮城节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png}
+  - {name: 人工智能, type: select, proxies: [人工智能优选, 节点选择, 省流选择, 落地选择, 香港节点, 日本节点, 狮城节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png}
   - {name: 苹果服务, type: select, proxies: [DIRECT, 节点选择, 省流选择, 落地选择, 香港节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png}
   - {name: 微软服务, type: select, proxies: [DIRECT, 节点选择, 省流选择, 落地选择, 香港节点, 美国节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png}
   - {name: 国外媒体, type: select, proxies: [节点选择, 省流选择, 落地选择, 香港节点, 美国节点, 日本节点, 狮城节点], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png}
@@ -131,7 +131,7 @@ proxy-groups:
   - {name: 法国节点, <<: *Auto, filter: *FilterFR, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/FR.png}
   - {name: 德国节点, <<: *Auto, filter: *FilterDE, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/DE.png}
   - {name: 台湾节点, <<: *Auto, filter: *FilterTW, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png}
-  - {name: 人工智能, <<: *Auto, filter: *FilterAI, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png}
+  - {name: 人工智能优选, <<: *Auto, filter: *FilterAI, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png}
 
 ### 规则配置
 RuleSet_classical: &RuleSet_classical {type: http, behavior: classical, interval: 43200, format: text, proxy: 节点选择}
